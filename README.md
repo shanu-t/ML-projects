@@ -23,3 +23,34 @@ How It Works:-
 Results:- 
 1:- Achieved an accuracy of 92% with the Random Forest model.
 2:- Important features included social interaction scores and communication patterns.
+
+
+
+
+Credit Card Fraud Detection Project:-
+
+Project Overview:-
+This project aims to detect fraudulent credit card transactions using machine learning techniques. 
+The goal is to build a model that can differentiate between genuine and fraudulent transactions based on historical data.
+
+Objective:-
+Develop a reliable system to detect fraud accurately.
+Handle class imbalance effectively (since fraudulent transactions are rare compared to genuine ones).
+Analyze key patterns and features leading to fraud detection.
+
+Tools and Technologies:-
+Languages: Python
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Techniques: Machine Learning (Logistic Regression, Random Forest).
+
+Project Workflow:-
+1:- Data Collection: Used a publicly available dataset (e.g., Kaggle Credit Card Fraud Detection dataset).
+2:- Data Exploration: Performed exploratory data analysis (EDA) to understand the dataset.
+3:- Preprocessing: Handled missing values, scaled features, and balanced the dataset using SMOTE.
+4:- Model Training: Trained multiple models (Logistic Regression, Random Forest) to detect fraud.
+5:- Evaluation: Compared models using accuracy, precision, recall, F1-score.
+
+Result:-
+Achieved an ROC-AUC score of 98%.
+High recall score ensured minimal false negatives (critical for fraud detection).
+
